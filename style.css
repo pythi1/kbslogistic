@@ -1,11 +1,7 @@
 .driver-form {
     align-items: center;
+    height: 95vh;
 
-}
-
-.heading{
-    font-size: 20px;
-    font-weight: 800;
 }
 
 table {
@@ -19,35 +15,48 @@ table {
 }
 
 th {
-    height: 20px;
+    height: 25px;
 }
 
 tr td {
     height: 15px;
 }
 
-tr td:first-child{
+tr td:first-child {
     width: 14%;
 }
 
+.logo {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    margin-right: 15px;
 
-input , textarea {
+
+}
+
+input,
+textarea {
     border: none;
     width: 95%;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 input:focus {
     border: none;
 }
 
-.btn{
+.btn {
     border: none;
     background-color: transparent;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
- #date{
-            margin: 0px;
-        }
+
+#date {
+    margin: 0px;
+}
